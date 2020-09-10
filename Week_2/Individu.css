@@ -1,0 +1,24 @@
+.foto{
+    width: 100%;
+    text-align: center;
+}
+
+.potoku{
+    width: 5cm;
+    height: 6cm;
+    text-align: center;
+}
+
+.biodataku{
+    text-align: center;
+    width: 100%;
+}
+
+.tableku{
+    margin-left : auto;
+    margin-right : auto;
+}
+
+body{
+    background-color: mediumseagreen;
+}
