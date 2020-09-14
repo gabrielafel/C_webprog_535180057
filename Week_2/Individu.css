@@ -20,10 +20,12 @@
 }
 
 body{
-    background-color: mediumseagreen;
+    background-image: url(bground.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .footer{
     width: 0.5cm;
-    height: 0.6cm;
+    height: 0.5cm;
 }
