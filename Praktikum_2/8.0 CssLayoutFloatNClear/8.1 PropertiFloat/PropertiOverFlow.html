@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                border: 3px solid #4CAF50;
+                padding: 5px;
+            }
+            .img1{
+                float: right;
+            }
+            .clearfix{
+                overflow: auto;
+            }
+            .img2{
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <p>
+            Dalam contoh ini, gambar lebih tinggi dari elemen yang memuatnya, dan itu di float-kan, sehingga 
+            overflow dari penampungnya:
+        </p>
+        <div>
+            <img class="img1" src="../img/icon.jpg" alt="icon.jpg" width="170" height="170">
+            Ini, sebagai contoh nya aja saya tambahin sama kalimat biar keliatan jelas
+        </div>
+        <p>
+            Tambahkan ke kelas clearfix dengan overflow: auto ke elemen yang mengandung, untuk
+            memperbaiki masalah ini:
+        </p>
+        <div class="clearfix">
+            <img class="img2" src="../img/icon.jpg" alt="icon.jpg" width="170" height="170">
+            Ini, sebagai contoh nya aja saya tambahin sama kalimat biar keliatan jelas
+        </div>
+    </body>
+</html>
