@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Kalkulator</title>
+        <link rel="stylesheet" href="Kalku.css">
+    </head>
+    <body>
+        <form name="kalkulator">
+            <table class="tabel">
+                <tr>
+                    <td>Bil 1</td>
+                    <td>: </td>
+                    <td><input type="number" name="bil1"></td>
+                </tr>
+                <tr>
+                    <td>Bil 2</td>
+                    <td>: </td>
+                    <td><input type="number" name="bil2"></td>
+                </tr>
+                <tr>
+                    <td>Hasil</td>
+                    <td>: </td>
+                    <td><input type="number" name="hasil"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="tombol" type="button" onclick="tambah()" value=" + ">
+                        <input class="tombol" type="button" onclick="kurang()" value=" - ">
+                        <input class="tombol" type="button" onclick="kali()" value=" x ">
+                        <input class="tombol" type="button" onclick="bagi()" value=" / ">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <script src="kalku.js"></script>
+    </body>
+</html>
