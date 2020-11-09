@@ -1,3 +1,0 @@
-L1: Hello World!
-L2: Hello!
-L3: World!
