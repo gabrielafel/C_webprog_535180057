@@ -1,0 +1,14 @@
+{
+  "name": "praktikum_9",
+  "version": "1.0.0",
+  "description": "contoh Express JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriela Felicia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
