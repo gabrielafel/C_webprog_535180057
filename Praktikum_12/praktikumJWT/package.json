@@ -1,0 +1,20 @@
+{
+  "name": "praktikumjwt",
+  "version": "1.0.0",
+  "description": "Contoh Penggunaan JWT",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "C_WEBPROG_535180057"
+  },
+  "author": "Gabriela Felicia",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.6"
+  }
+}
