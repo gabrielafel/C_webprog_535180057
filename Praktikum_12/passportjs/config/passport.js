@@ -4,7 +4,6 @@ const mongoose = require("mongoose");
 
 const bcrypt = require("bcryptjs");
 
-//user model
 const User = require("../models/User");
 
 module.exports = function (passport) {
@@ -14,7 +13,7 @@ module.exports = function (passport) {
       User.findOne({ email: email })
         .then((user) => {
           if (!user) {
-            return done(null, false, { message: "email tidak terdaftar" });
+            return done(null, false, { message: "Email tidak terdaftar" });
           }
 
           //cek password
@@ -24,7 +23,7 @@ module.exports = function (passport) {
             if (isMatch) {
               return done(null, user);
             } else {
-              return done(null, false, { message: "password salah" });
+              return done(null, false, { message: "Password salah" });
             }
           });
         })
